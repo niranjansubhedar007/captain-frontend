@@ -70,6 +70,21 @@ export default function index() {
     }
   };
 
+
+
+  
+
+// * imp note *
+
+//   mail	role
+// jshaikh003@gmail.com	admin
+// javed.absoft@gmail.com	captain
+	
+
+// if you want to change email for this role wise authentication you need to change email in this goggle sheet get api
+// https://docs.google.com/spreadsheets/d/1RTxX9Q26Ubkg30fw06YYFl6w7jNlwTuZlfJUK1JC7-w/edit?gid=0#gid=0
+
+
   const onGoogleButtonPress = async () => {
     try {
       await GoogleSignin.hasPlayServices();
